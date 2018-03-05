@@ -1,5 +1,5 @@
 {
-  "name": "bearcat-dao",
+  "name": "bearcatjs-dao",
   "version": "1.0.2",
   "description": "SQL mapping dao framework",
   "main": "index.js",
