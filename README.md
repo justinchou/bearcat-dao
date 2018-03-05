@@ -113,9 +113,9 @@ write SQL tempalte is easy
 for example, we can define SQL template with id ***testResultSql***
 
 ```
-sql testResultSql
+sqlstart testResultSql
 select * from test 
-end
+sqlend
 ```
 
 then we can use this sql in dao, like this  
@@ -132,13 +132,13 @@ Moreover, SQL template can include other SQL template
 
 for example  
 ```
-sql testResultSql
+sqlstart testResultSql
 select * from ${testResultTable} 
-end
+sqlend
 
-sql testResultTable
+sqlstart testResultTable
 test
-end
+sqlend
 ```
 
 then testResultSql template is equal to the above 
