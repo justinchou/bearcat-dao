@@ -1,5 +1,5 @@
 var simplepath = require.resolve('../../../test-ddb-context.json');
-var bearcat = require('bearcat');
+var bearcat = require('bearcatjs');
 var path = require('path');
 var paths = [simplepath];
 bearcat.createApp(paths);

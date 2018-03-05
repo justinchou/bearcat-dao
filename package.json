@@ -25,7 +25,7 @@
   "author": "fantasyni",
   "license": "MIT",
   "devDependencies": {
-    "bearcat": "0.4.x",
+    "bearcatjs": "latest",
     "should": ">=0.0.1",
     "mocha": ">=0.0.1",
     "socket.io-client": ">=0.0.1",

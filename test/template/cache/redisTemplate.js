@@ -1,5 +1,5 @@
 var should = require('should');
-var bearcat = require('bearcat');
+var bearcat = require('bearcatjs');
 
 describe('redisTemplate', function() {
 	var simplepath = require.resolve('../../../test-context.json');

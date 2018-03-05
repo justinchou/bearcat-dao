@@ -1,4 +1,4 @@
-var Bearcat = require('bearcat');
+var Bearcat = require('bearcatjs');
 var personDomain = require('../mock/domain/person');
 var joinPersonDomain = require('../mock/domain/joinPerson');
 var domainFactory = require('../../lib/util/domainFactory');

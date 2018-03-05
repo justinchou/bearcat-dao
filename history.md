@@ -1,3 +1,8 @@
+1.0.2 / 2018-03-06
+==================
+* 修复SQL语句对 SQL/END & sql/end 的支持
+* 修复在SQL语句中字段名出现`end`, 例如friend/gender等词中的`end`也会按照语句结束处理的问题
+
 0.2.12 / 2016-1-28
 ==================
 * update mysqlTemplate add directQuery, directAdd interface to be compatible with ddbTemplate

@@ -4,7 +4,7 @@ var person1Domain = require('../mock/domain/person1');
 var person2Domain = require('../mock/domain/person2');
 var personDomain = require('../mock/domain/person');
 var bearcatDao = require('../../lib/bearcat-dao');
-var Bearcat = require('bearcat');
+var Bearcat = require('bearcatjs');
 var should = require('should');
 var path = require('path');
 
